@@ -8,8 +8,8 @@
 !.gitignore
 !LICENSE
 !README.md
-!export/
 !export/**
+!pictures/**
 
 # Keep source design files
 !*.kicad_sch

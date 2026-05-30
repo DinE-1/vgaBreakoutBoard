@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "export-gerber/",
+      "plot": "export/gerber/",
       "pos_files": "",
       "specctra_dsn": "vga-breakout.dsn",
       "step": "vga-breakout.step",
