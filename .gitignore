@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow directories so Git can recurse
+!*/
+
+# Keep repo metadata/docs
+!.gitignore
+!LICENSE
+!README.md
+!Makefile
+
+# Keep source design files
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_pro
+!*.dsn
