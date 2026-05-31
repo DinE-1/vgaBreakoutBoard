@@ -1584,6 +1584,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -1842,6 +1981,155 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:PESD5V0L1UL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD5V0L1UL"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-882"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?882"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5V0L1UL_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD5V0L1UL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2166,6 +2454,42 @@
 		(uuid "3c94f344-bc87-4d37-b196-ccc06dd4944e")
 	)
 	(junction
+		(at 121.92 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af9fbca-01b0-428b-b9d3-c52c6f32d08f")
+	)
+	(junction
+		(at 154.94 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b464eeb-ba37-4229-8242-50e84b32b0fe")
+	)
+	(junction
+		(at 132.08 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64be5822-a21c-4c0d-9325-74a92106cb7f")
+	)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a29d0fe-206c-4327-bb35-6fdcd8a977fc")
+	)
+	(junction
+		(at 119.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72378fe4-47c2-45fa-9894-330021f111e6")
+	)
+	(junction
+		(at 154.94 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780ed0ef-6ce2-446d-aae1-af5ba0d62186")
+	)
+	(junction
 		(at 132.08 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2176,6 +2500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a15ff195-af1f-4035-b8d9-8dfcdb0a9f20")
+	)
+	(junction
+		(at 119.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af2071b1-5522-4a41-915b-8ee8e831c6d9")
 	)
 	(junction
 		(at 132.08 85.09)
@@ -2260,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "11d2e2b1-7b1c-4b13-a3ca-c7e96b93495d")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13321fc2-1e8f-42ea-a1f4-9f8da6463a70")
 	)
 	(wire
 		(pts
@@ -2353,13 +2693,33 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 78.74) (xy 129.54 78.74)
+			(xy 161.29 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40ef3ade-6921-484a-ab4d-f3e512138164")
+		(uuid "3cc9d70f-30cf-4e10-80f0-7b09f217fbfd")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e366720-5581-43c1-90da-b732dcc6e792")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40399d21-5d72-4dea-b8c3-1a5ea108acf2")
 	)
 	(wire
 		(pts
@@ -2370,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "41699fe1-02e5-4a9b-bb50-739b678729ea")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c6f664-2fd7-4a8b-bfcc-3b426456f278")
 	)
 	(wire
 		(pts
@@ -2513,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 90.17) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9538f9-6746-433e-b9c7-a67c99d609ed")
+	)
+	(wire
+		(pts
 			(xy 128.27 83.82) (xy 128.27 88.9)
 		)
 		(stroke
@@ -2533,13 +2913,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 129.54 73.66)
+			(xy 119.38 78.74) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8708a7a7-10e4-4530-9c7c-46ae46fec8ae")
+		(uuid "8998b3a8-af5d-4e74-9b4f-2194d203f182")
 	)
 	(wire
 		(pts
@@ -2613,6 +2993,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94b0e07-d85b-42b5-ab8d-18a74ca3753f")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94d3972-27af-4f95-a4ba-d5b22746a9cf")
+	)
+	(wire
+		(pts
 			(xy 88.9 109.22) (xy 88.9 110.49)
 		)
 		(stroke
@@ -2640,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "ae4caece-c2a4-4685-9afd-562e10f030f0")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee5488c-f859-45ab-8890-52746c2f3fb3")
 	)
 	(wire
 		(pts
@@ -2693,6 +3103,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beadcf1a-f672-437f-b87c-068036a979dc")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8abcc7-cfe7-4d7c-b6d4-fa12165ac312")
+	)
+	(wire
+		(pts
 			(xy 129.54 87.63) (xy 132.08 87.63)
 		)
 		(stroke
@@ -2720,6 +3150,16 @@
 			(type default)
 		)
 		(uuid "c745c417-c12c-4fef-864a-0c90d991d4e3")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75335dc-0987-4381-bd63-e2f68a64f9bc")
 	)
 	(wire
 		(pts
@@ -2790,6 +3230,16 @@
 			(type default)
 		)
 		(uuid "da8b6f41-ecc3-48fc-bf25-a1b98d3987f3")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deef9861-a860-4b89-a97e-b7cb81cf02d4")
 	)
 	(wire
 		(pts
@@ -2873,6 +3323,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 68.58) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1794429-5d97-4ac6-bc75-7d2caaf3337f")
+	)
+	(wire
+		(pts
 			(xy 123.19 71.12) (xy 148.59 71.12)
 		)
 		(stroke
@@ -2880,16 +3340,6 @@
 			(type default)
 		)
 		(uuid "f45fe650-7559-4b46-8314-99a4b0b01741")
-	)
-	(wire
-		(pts
-			(xy 119.38 76.2) (xy 128.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8306962-4360-4d18-9e3a-25e8df1fc54a")
 	)
 	(label "HS"
 		(at 119.38 83.82 0)
@@ -2952,7 +3402,7 @@
 		(uuid "6eeb467d-ae5d-4669-a2ec-4d89d8893685")
 	)
 	(label "red"
-		(at 120.65 73.66 0)
+		(at 132.08 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3002,7 +3452,7 @@
 		(uuid "e4154164-c696-4512-8f7a-298185ed5f49")
 	)
 	(label "green"
-		(at 120.65 76.2 0)
+		(at 132.08 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3187,6 +3637,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f3536e-5f82-4860-bd83-42ed161f7cef")
+		(property "Reference" "C2"
+			(at 156.972 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 157.988 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000f9500-53d5-40b4-80f9-dc212657a6d6")
+		)
+		(pin "2"
+			(uuid "17a11ed1-e09b-4bdd-aae8-bdf43b3bf3d6")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PESD5V0L1UL")
+		(at 119.38 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d10927a-2b3d-465a-bef2-d69f09558edd")
+		(property "Reference" "D3"
+			(at 121.92 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0L1UL"
+			(at 121.92 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4cbf7d9-5008-46e8-9f80-192d043d5583")
+		)
+		(pin "2"
+			(uuid "09e74a4e-598f-42be-a6fc-eaf5563ff6f9")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 105.41 0)
 		(unit 1)
@@ -3247,6 +3836,76 @@
 			(project ""
 				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PESD5V0L1UL")
+		(at 105.41 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a07c386-8481-4012-9875-1439a52f2047")
+		(property "Reference" "D2"
+			(at 107.95 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0L1UL"
+			(at 107.95 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ce71966-4863-4b81-8364-5dea443347ac")
+		)
+		(pin "1"
+			(uuid "b965cca2-1753-4e1b-a504-76520edb5247")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3506,7 +4165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c05f6a1c-ab62-4213-834e-8711ac7f0a7d")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 92.71 86.398 0)
 			(effects
 				(font
@@ -3560,7 +4219,7 @@
 		(instances
 			(project "vga-breakout"
 				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -3644,6 +4303,212 @@
 			(project ""
 				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PESD5V0L1UL")
+		(at 121.92 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca17273b-379f-4f5d-a8ab-7a7bdae8c72a")
+		(property "Reference" "D1"
+			(at 124.46 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0L1UL"
+			(at 124.46 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UL.pdf"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional ESD protection diode, 5V, SOD-882"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "598f2d55-8ff4-4f3c-afd7-d2063fa76bcc")
+		)
+		(pin "2"
+			(uuid "72777586-1856-48f1-b69d-d27e91f63181")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf26f9f9-e2ab-4269-87c5-d93a7b68ec3f")
+		(property "Reference" "C1"
+			(at 165.1 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 165.1 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.2552 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbce0640-b9e1-45f8-a892-1e8822b79f29")
+		)
+		(pin "2"
+			(uuid "4990f242-4b0c-40bf-99e4-710b2731b543")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9bb1a4-58a9-4bc4-a366-e1bff15fbd49")
+		(property "Reference" "#PWR02"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40af2acd-4d05-4f30-b699-f185dd0b84d6")
+		)
+		(instances
+			(project ""
+				(path "/022819ff-d96b-4313-b4b2-cc9e6b6ca8da"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
