@@ -1770,7 +1770,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a19baee6-6593-4f98-b788-86b70279b869")
+			(uuid "c2651991-e59a-4f85-a0c6-41879cb903a3")
 			(effects
 				(font
 					(size 1 1)
@@ -1781,7 +1781,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.15 0)
 			(layer "F.Fab")
-			(uuid "7ea1f8cc-fd5c-4e88-b937-5d43a7469efe")
+			(uuid "506bcb8d-ad6a-4dc3-8eac-f2262459ab67")
 			(effects
 				(font
 					(size 1 1)
@@ -1793,7 +1793,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e88a5f2-9c7a-4a51-80c3-2e47659c6619")
+			(uuid "7c8e0b19-227b-4637-97a1-2919635c81b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1805,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a939362-d962-447e-a883-a431e865e448")
+			(uuid "aef04c13-00c9-4b42-93e3-59caefe25283")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 		)
 	)
 	(gr_text "	VGA\nexpansion pcb"
-		(at 89 103 -0)
+		(at 90 103 -0)
 		(layer "B.SilkS")
 		(uuid "8defe0f6-4c34-4d81-a095-7f0eb3bf662f")
 		(effects
