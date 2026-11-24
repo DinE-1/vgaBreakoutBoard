@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.5"
+      "Version": "10.0.8"
     },
-    "CreationDate": "2026-05-31T10:05:37+05:30"
+    "CreationDate": "2026-11-24T22:36:14+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 46.05,
-      "Y": 26.8
+      "X": 39.05,
+      "Y": 18.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "vga-breakout-F_Cu.gbr",
+      "Path": "vga-breakout-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vga-breakout-B_Cu.gbr",
+      "Path": "vga-breakout-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vga-breakout-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "vga-breakout-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "vga-breakout-F_Silkscreen.gbr",
+      "Path": "vga-breakout-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vga-breakout-B_Silkscreen.gbr",
+      "Path": "vga-breakout-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vga-breakout-F_Mask.gbr",
+      "Path": "vga-breakout-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "vga-breakout-B_Mask.gbr",
+      "Path": "vga-breakout-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "vga-breakout-Edge_Cuts.gbr",
+      "Path": "vga-breakout-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

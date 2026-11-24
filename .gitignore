@@ -1,18 +1,21 @@
 # Ignore everything by default
 *
 
-# Allow directories so Git can recurse
-!*/
-
 # Keep repo metadata/docs
 !.gitignore
 !LICENSE
 !README.md
-!export/**
-!pictures/**
+
+!exports/
+!exports/gerber/
+!exports/gerber/*
+!exports/*.zip
+
+!pictures/
+!pictures/*.png
 
 # Keep source design files
 !*.kicad_sch
 !*.kicad_pcb
 !*.kicad_pro
-!*.dsn
+!*.kicad_jobset
