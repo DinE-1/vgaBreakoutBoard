@@ -7,9 +7,6 @@ A KiCad PCB breakout board providing easy access to VGA connector pins.
 ## Front
 ![Front](pictures/vgaBreakoutBoardPic-front.png)
 
-## Front with components
-![Front Angled](pictures/vgaBreakoutBoardPic-withComponents.png)
-
 ## Back
 ![Back](pictures/vgaBreakoutBoardPic-back.png)
 
